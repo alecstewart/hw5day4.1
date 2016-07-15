@@ -1,0 +1,101 @@
+*{
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+.jumbotron{
+  margin-bottom: 5em;
+  background: black;
+  color: white;
+  box-shadow: 0 10px 10px white;
+  text-shadow: 0 1px 10px white;
+  border-radius: 4px;
+}
+.jumbotron:hover{
+  transform: scale(1.1);
+  color: white;
+  box-shadow: 0 10px 10px white;
+  text-shadow: 0 1px 10px white;
+}
+.jumbotron2{
+  border-radius: 4px;
+  color: white;
+  background: black;
+  box-shadow: 0 10px 10px white;
+  text-shadow: 0 6px 6px white;
+  margin-bottom: 5em;
+}
+.jumbotron2:hover{
+  transform: scale(1.1);
+  background: black;
+  color: black;
+  box-shadow: 0 10px 10px white;
+  text-shadow: 0 6px 6px white;
+}
+h4{
+  color: white;
+}
+
+.thumbnail{
+  border-radius: 4px;
+  background: black;
+  box-shadow: 0 10px 10px white;
+  text-shadow: 0 1px 1px black;
+}
+.thumbnail:hover{
+  transform: scale(1.1);
+  background: black;
+  color: white;
+  box-shadow: 0 10px 10px white;
+  text-shadow: 0 1px 1px white;
+}
+
+p{
+  color: white;
+  font-size: 10em;
+  text-shadow: 0 20px 20px black;
+  margin-bottom: 1em;
+}
+h3{
+  color: white;
+  text-shadow: 0 20px 20px black;
+  text-decoration: underline;
+  font-size: 2.5em;
+  
+  text-align: center;
+}
+h1{
+  color: white;
+  text-shadow: 0 20px 20px black;
+  font-size: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+label{
+  color: white;
+  text-shadow: 0 10px 10px black;
+  font-size: 2.5em;
+  margin-bottom: .75em;
+}
+.form-control{
+  font-size: 1em;
+  color: black;
+}
+.form-group{
+  height: 9em;
+}
+
+
+.btn-primary{
+  background: black;
+  color:white;
+}
+.btn-success{
+  background: black;
+  color:white;
+  box-shadow: 0 10px 10px white;
+  margin-bottom: 2em;
+}
