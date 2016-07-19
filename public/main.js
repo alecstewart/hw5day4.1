@@ -12,7 +12,7 @@ var log = console.log.bind(console)
   }
 })
 
-fetch('http://localhost:8000/api/v1/portfolio')
+fetch()
   .then(function(jsonData){
     return jsonData.json()
   })
@@ -98,3 +98,11 @@ fetch('http://localhost:8000/api/v1/portfolio')
 
     return row
   }
+
+$(function() {
+ $( "#datepicker-10" ).datepicker({
+    changeMonth:true,
+    changeYear:true,
+    dateFormat: "yy-mm-dd"
+ });
+});
